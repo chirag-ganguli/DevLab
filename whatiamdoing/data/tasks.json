@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Started 'What I Am Doing' Project",
+        "description": "Began the development of a personal timeline application to track my activities and projects.",
+        "date": "2025-08-09"
+    },
+    {
+        "title": "Set Up Project Structure",
+        "description": "Created the initial file and folder structure for the web application, including HTML, CSS, and JavaScript files.",
+        "date": "2025-08-10"
+    },
+    {
+        "title": "Designed the User Interface",
+        "description": "Crafted the basic UI and styling for the application, focusing on a clean and modern look.",
+        "date": "2025-08-11"
+    },
+    {
+        "title": "Implemented Timeline Feature",
+        "description": "Developed the JavaScript logic to fetch task data and dynamically generate the timeline on the page.",
+        "date": "2025-08-12"
+    }
+]

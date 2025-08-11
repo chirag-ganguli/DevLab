@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I Am Doing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>What I Am Doing</h1>
+    </header>
+
+    <section id="add-task-container">
+        <form id="add-task-form">
+            <h2>Add a New Task</h2>
+            <input type="text" id="task-title" placeholder="Task Title" required>
+            <textarea id="task-description" placeholder="Task Description" required></textarea>
+            <button type="submit">Add Task</button>
+        </form>
+    </section>
+
+    <main id="latest-task-container">
+        <!-- The latest task will be displayed here -->
+    </main>
+
+    <section id="timeline-container">
+        <h2>Timeline</h2>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search tasks...">
+        </div>
+        <div id="timeline">
+            <!-- The timeline of tasks will be displayed here -->
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
